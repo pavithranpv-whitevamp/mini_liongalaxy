@@ -284,7 +284,7 @@ h1, h2, h3 {
   font-family: var(--font-fun); font-weight: 800; padding: 2px 12px; border-radius: 999px; font-size: 0.9rem;
 }
 .video-info { padding: 18px 20px 22px; }
-.video-info h3 { font-size: 1.2rem; margin: 0 0 6px; }
+.video-info h2 { font-size: 1.2rem; margin: 0 0 6px; }
 .video-info .meta { font-size: 0.9rem; color: var(--muted); }
 
 .video-status { text-align: center; padding: 50px 20px; color: var(--muted); }
@@ -333,7 +333,7 @@ a.contact-card:hover { transform: translateX(6px); }
   flex: none; width: 60px; height: 60px; border-radius: 18px; display: grid; place-items: center;
   font-size: 1.8rem; background: var(--c, var(--sky));
 }
-.contact-card h3 { font-size: 1.25rem; margin: 0; }
+.contact-card h2 { font-size: 1.25rem; margin: 0; }
 .contact-card p { margin: 0; color: var(--muted); font-size: 0.98rem; }
 
 .form-card { background: var(--cream); color: var(--space); border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow); }
@@ -356,7 +356,7 @@ a.contact-card:hover { transform: translateX(6px); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 36px; }
 .footer-brand img { width: 170px; height: auto; margin-bottom: 12px; }
 .footer-brand p { color: var(--muted); margin: 0; max-width: 340px; }
-.site-footer h3 { font-size: 1.3rem; color: var(--sun); }
+.site-footer h2 { font-size: 1.3rem; color: var(--sun); }
 .footer-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
 .footer-links a { display: inline-block; padding: 10px 0; min-height: 44px; text-decoration: none; color: var(--muted); font-weight: 700; }
 .footer-links a:hover { color: var(--sky); }

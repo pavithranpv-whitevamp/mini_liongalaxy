@@ -150,7 +150,7 @@ var MLG = {
 
     var info = document.createElement('div');
     info.className = 'video-info';
-    var h = document.createElement('h3');
+    var h = document.createElement('h2');
     h.textContent = v.title;
     info.appendChild(h);
     var meta = document.createElement('div');
