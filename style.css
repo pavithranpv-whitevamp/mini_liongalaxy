@@ -365,6 +365,12 @@ a.contact-card:hover { transform: translateX(6px); }
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px;
   font-size: 0.92rem; color: var(--muted);
 }
+.footer-bottom a {
+  color: var(--sun); font-weight: 800;
+  text-decoration: underline; text-underline-offset: 3px;
+  display: inline-block; padding: 10px 2px; margin: -10px 0;
+}
+.footer-bottom a:hover { color: var(--sky); }
 @media (max-width: 760px) {
   .footer-grid { grid-template-columns: 1fr; text-align: center; }
   .footer-brand img, .footer-brand p { margin-inline: auto; }
